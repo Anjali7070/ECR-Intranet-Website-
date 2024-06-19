@@ -4,26 +4,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>East Central Railway</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+ 
 </head>
 <body>
     <header>
-        <h1>East Central Railway</h1>
-        <p>"I PLEDGE FOR SWITCHING-OFF THE LIGHTS & FANS WHILE LEAVING WORK PLACE OR RES"</p>
-        <a href="#" class="hindi">हिन्दी</a>
-    </header
+        <span><img class="logo" src="Images/main logo.png" alt="logo"></span>
+        <h1 data-lang="en" data-lang-text="East Central Railway">East Central Railway</h1>
+        <p data-lang="en" data-lang-text='"I PLEDGE FOR SWITCHING-OFF THE LIGHTS & FANS WHILE LEAVING WORK PLACE OR RES"'>
+        "I PLEDGE FOR SWITCHING-OFF THE LIGHTS & FANS WHILE LEAVING WORK PLACE OR RES"
+        </p>
+        <a href="#" class="hindi" data-lang="en" data-lang-text="Hindi" onclick="toggleLanguage()">हिन्दी</a>
+        <a href="admin-login-page.html" class="admin-login">Admin Login</a>
+    </header>
     <nav>
         <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Rly. Board</a></li>
-            <li><a href="#">Shared Folder</a></li>
-            <li><a href="#">IRPSM</a></li>
-            <li><a href="#">IREPS</a></li>
-            <li><a href="#">REIS</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">ANOMS</a></li>
-            <li><a href="#">Press Brief</a></li>
-            <li><a href="#">E Dak</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" data-lang-text="Signal &amp; Telecom">Signal & Telecom</a>
+                <ul class="submenu">
+                    <li><a href="Pdfs/organisational structure.png">Organisational Structure</a></li>
+                    <li><a href="#">Schedule of Power</a></li>
+                    <li>
+                        <a href="#">Policy  <span class="triangle"></span></a>
+                        <ul class="subsubmenu">
+                            <li><a href="#">Signal</a></li>
+                            <li><a href="#">Telecom</a></li>
+                            <li><a href="#">Establishments & Others</a></li>
+                            <li><a href="#">Drawing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Important Letters  <span class="triangle"></span></a>
+                        <ul class="subsubmenu">
+                            <li><a href="#">Signal</a></li>
+                            <li><a href="#">Telecom</a></li>
+                            <li><a href="#">Establishments & Others</a></li>
+                            <li><a href="#">Drawing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PCSTE Tech. Circulars</a></li>
+                    <li><a href="#">Manuals</a></li>
+                    <li><a href="#">Signal Maintenance Booklets</a></li>
+                    <li><a href="#">Telecom Maintenance Schedule</a></li>
+                    <li>
+                        <a href="#">Signal Data  <span class="triangle"></span></a>
+                        <ul class="subsubmenu">
+                            <li><a href="#">Signal Data</a></li>
+                            <li><a href="#">Signal Control</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Telecom Data  <span class="triangle"></span></a>
+                        <ul class="subsubmenu">
+                            <li><a href="#">Telecom Details</a></li>
+                            <li><a href="#">OFC Ring Diagram of Bihar & Jharkhand</a></li>
+                            <li><a href="#">OFC Quad Map</a></li>
+                            <li><a href="#">Telecom Control</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Telecom System Map</a></li>
+                    <li><a href="#">Network Diagram</a></li>
+                    <li><a href="#">Manual for VPN Configuration</a></li>
+                    <li><a href="#">Letter Issued Details</a></li>
+                    <li><a href="#">HQ One Page Directory</a></li>
+                </ul>
+            </li>
+            <li><a href="https://ecr.indianrailways.gov.in/uploads/files/1378370209990-Railway%20Intranet%20Website.htm" data-lang-text="Railway Intranet Sites">Railway Intranet Sites</a></li>
+            <li><a href="https://ecr.indianrailways.gov.in/view_section.jsp?lang=0&id=0,7,276" data-lang-text="Other Railway Websites">Other Railway Websites</a></li>
+            <li><a href="#" data-lang-text="Contact Us">Contact Us</a>
+                <ul class="submenu">
+                    <li><a href="Pdfs/Telephone direcctory.pdf" target="_blank"">Telephone Directory</a></li>
+                    <li><a href="Pdfs/GM's Intercom Directory.pdf">GM Intercom Directory</a></li>
+                    <li><a href="Pdfs/emails.pdf">E-mail Addresses</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
+    
+    
+    <section class="slideshow-container" id="banner-container">
+        <div class="mySlides fade">
+            <img src="Images/aazadi.jpeg" alt="Train 1" class="banner-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="Images/building.jpeg" alt="Train 2" class="banner-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="Images/hill.png" alt="Train 3" class="banner-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="Images/smt jn.jpg" alt="Train 4" class="banner-image">
+        </div>
+    </section>
+
+   
+    <section class="divisions">
+        <div class="division">
+            <img src="Images/dhanabad.jpg" alt="Dhanbad Division">
+            
+            <h3>DHANBAD DIVISION</h3>
+          
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laudantium non beatae nemo facilis culpa recusandae aut alias modi! Odio explicabo rerum labore natus, quasi fugiat quae soluta impedit sunt</p>
+        </div>
+        <div class="division">
+            <img src="Images/upadhyay.jpg" alt="Pt. Deen Dyal Upadhayay Division">
+            <h3>PT. DEEN DYAL UPADHAYAY DIVISION</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laudantium non beatae nemo facilis culpa recusandae aut alias modi! Odio explicabo rerum labore natus, quasi fugiat quae soluta impedit sunt.</p>
+        </div>
+        <div class="division">
+            <img src="Images/smt jn.jpg" alt="samastipur division">
+            <h3>SAMASTIPUR DIVISION</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias maxime quis recusandae consequuntur quam ad accusamus dolores. Impedit molestiae illo pariatur illum ullam ducimus, voluptatum repellendus. Totam, suscipit quae.</p>
+        </div>
+        <div class="division">
+            <img src="Images/Sonpur-Mela.jpg" alt="Sonpur Division">
+            <h3>SONPUR DIVISION</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maiores provident dolor accusamus voluptatem unde optio nam, illum neque consequuntur. Beatae perferendis rerum quo! Omnis dolor ut nulla modi expedita.</p>
+        </div>
+        <div class="division">
+            <img src="Images/danapur.jpg" alt="Danapur Division">
+
+            <h3>DHANBAD DIVISION</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, a molestiae voluptates quis dolores dicta minima id amet, nemo praesentium culpa assumenda iure autem corporis sit sed veritatis nisi fuga.</p>
+        </div>
+    </section>
+
+    <div class="tweets">
+        <a class="twitter-timeline" data-width="600" data-height="500" href="https://twitter.com/ECRlyHJP?ref_src=twsrc%5Etfw">Tweets by ECRlyHJP</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>East Central Railway is one of the seventeen railway zones in India. We aim to provide the best railway services to our passengers.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Rly. Board</a></li>
+                    <li><a href="#">Shared Folder</a></li>
+                    <li><a href="#">IRPSM</a></li>
+                    <li><a href="#">IREPS</a></li>
+                    <li><a href="#">REIS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>Email: info@ecrailway.com</li>
+                    <li>Phone: +91-123-456-7890</li>
+                    <li>Address: Rail Niketan, Hajipur, Bihar</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 East Cental Railway. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+   
+</body>
+</html>
