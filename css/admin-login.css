@@ -1,0 +1,79 @@
+/* admin-login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.login-container {
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 0.75em;
+    background-color: #38c3fa; /* Matte sky blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #277da4; /* Slightly darker sky blue for hover effect */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    color: #2190ff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3b43d1;
+    text-decoration: underline;
+}
