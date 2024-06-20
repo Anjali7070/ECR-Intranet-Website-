@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Banners</title>
+</head>
+<body>
+    <h2>Manage Banners</h2>
+    <form id="banner-form">
+        <label for="banner-title">Banner Title:</label>
+        <input type="text" id="banner-title" name="banner-title" required>
+        
+        <label for="banner-image">Banner Image URL:</label>
+        <input type="url" id="banner-image" name="banner-image" required>
+        
+        <button type="submit">Add Banner</button>
+    </form>
+
+    <h3>Existing Banners</h3>
+    <table id="banner-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Image</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Banner entries will be dynamically inserted here -->
+        </tbody>
+    </table>
+</body>
+</html>
