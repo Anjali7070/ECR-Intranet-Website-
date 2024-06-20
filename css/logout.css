@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    
+}
+
+.logout-container {
+    width: 50vb;
+    height: 17vh;
+    background-color: #fff;
+    padding: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out; /* Transition effect */
+}
+
+.logout-container.fade-out {
+    opacity: 0; /* Fade out effect */
+}
+
+.logout-container h1 {
+    margin: 0 0 1rem;
+ 
+}
+
+.logout-container p {
+    margin: 0 0 1.5rem;
+    padding: 3px;
+   
+}
+
+#loginButton {
+    padding: 0.5rem 1rem;
+    background-color: #3e9ce9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    
+    
+
+}
+
+#loginButton:hover {
+    background-color: #0056b3;
+}
+
+#msg1 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#msg2 {
+    font-size: 20px;
+
+}
