@@ -7,10 +7,21 @@ body {
 header {
     background-color: #0094f0;
     color: white;
-    padding: 10px 0;
+    padding: 10px 20px;
+    display: flex;
     text-align: center;
     position: relative;
 }
+header.logo {
+flex-shrink: 0;
+margin-right: 20px;
+filter: invert();
+}
+
+header.content {
+    flex-grow: ;
+}
+
 header .admin-login {
     position: absolute;
     top: 10px;
@@ -280,10 +291,13 @@ footer {
 }
 
 .logo{
+    
     height: 80px;
     width: 80px;
 
 }
+
+
 
 
 /*nav ul li ul.submenu {
