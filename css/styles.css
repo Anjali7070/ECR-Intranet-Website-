@@ -177,6 +177,7 @@ nav ul li a:hover {
 
 .division p {
     color: #333;
+    text-align: left;
 }
 /* Footer Styles */
 footer {
