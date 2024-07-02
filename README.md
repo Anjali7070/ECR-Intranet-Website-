@@ -1,5 +1,5 @@
 
-# East Central Railway Website
+### East Central Railway Website
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,7 +9,6 @@
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project is a website for East Central Railway, providing information about the divisions, services, and contact details. The website is designed to be user-friendly and informative, catering to the needs of passengers and stakeholders.
@@ -74,10 +73,6 @@ The project consists of the following main files and directories:
     ```bash
     cd east-central-railway
     ```
-3. Install Node.js dependencies (if applicable):
-    ```bash
-    npm install
-    ```
 
 ## Usage
 1. Open `index.html` in a web browser to view the homepage.
@@ -102,6 +97,4 @@ Contributions are welcome! Please follow these steps:
     ```
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
